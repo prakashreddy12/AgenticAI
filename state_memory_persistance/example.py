@@ -26,8 +26,8 @@ graph_builder.add_edge("remember", END)
 graph = graph_builder.compile(checkpointer=InMemorySaver())
 
 # The same thread ID continues the same conversation.
-settings = {"configurable": {"thread_id": "student-1"}}
-graph.invoke({"name": "Asha"}, config=settings)
+settings = {"configurable": {"thread_id": "student-2"}}
+#graph.invoke({"name": "Prakash"}, config=settings)
 result = graph.invoke({"question": "What is my name?"}, config=settings)
 
 print("Remembered name:", result["saved_name"])
