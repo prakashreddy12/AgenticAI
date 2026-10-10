@@ -1,0 +1,9 @@
+Password Reset
+- To reset your password, visit portal.example/reset.
+- Use your company username and current MFA code.
+- If you have trouble logging in, contact the support desk.
+
+VPN Troubleshooting
+- For VPN issues, reconnect to the VPN and re-enter your company password.
+- If the certificate is invalid, update the VPN client and retry.
+- If the issue continues, open a help desk ticket with your device ID.
